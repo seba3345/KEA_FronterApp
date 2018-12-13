@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 334 74">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-skema_knap);
+      }
+
+      .cls-2 {
+        fill: #43425d;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 16px;
+        font-family: Helvetica;
+      }
+
+      .cls-4 {
+        fill: #a5a4bf;
+        fill-rule: evenodd;
+      }
+    </style>
+    <clipPath id="clip-skema_knap">
+      <rect width="334" height="74"/>
+    </clipPath>
+  </defs>
+  <g id="skema_knap" class="cls-1">
+    <rect class="cls-5" width="334" height="74"/>
+    <rect id="BG" class="cls-2" width="304.52" height="43.458" transform="translate(12.971 14.271)"/>
+    <text id="Skema" class="cls-3" transform="translate(52.433 39.67)"><tspan x="0" y="0">Skema</tspan></text>
+    <path id="Path_501" data-name="Path 501" class="cls-4" d="M2,5v9H14V5ZM13,2h2a.945.945,0,0,1,1,1V15a.945.945,0,0,1-1,1H1a.945.945,0,0,1-1-1V3A.945.945,0,0,1,1,2H3V1A.945.945,0,0,1,4,0,.945.945,0,0,1,5,1V2h6V1a1,1,0,0,1,2,0ZM12,12H10V10h2ZM9,12H7V10H9Zm3-3H10V7h2ZM9,9H7V7H9ZM6,12H4V10H6Z" transform="translate(24.282 25.476)"/>
+  </g>
+</svg>

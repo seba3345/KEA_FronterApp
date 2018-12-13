@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 275 71">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-link_knap);
+      }
+
+      .cls-2 {
+        fill: #ad4554;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 13px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+    </style>
+    <clipPath id="clip-link_knap">
+      <rect width="275" height="71"/>
+    </clipPath>
+  </defs>
+  <g id="link_knap" class="cls-1">
+    <rect id="Rectangle_166" data-name="Rectangle 166" class="cls-2" width="236.691" height="31.923" rx="4" transform="translate(20.006 20.188)"/>
+    <text id="Opret_Link" data-name="Opret Link" class="cls-3" transform="translate(103.153 28.268)"><tspan x="0" y="12">Opret Link</tspan></text>
+  </g>
+</svg>

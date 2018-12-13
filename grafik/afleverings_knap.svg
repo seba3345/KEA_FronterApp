@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 336 73">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-afleverings_knap);
+      }
+
+      .cls-2 {
+        fill: #43425d;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 16px;
+        font-family: Helvetica;
+      }
+
+      .cls-4 {
+        font-family: Helvetica, Source Sans Pro;
+      }
+
+      .cls-5 {
+        fill: #a5a4bf;
+      }
+    </style>
+    <clipPath id="clip-afleverings_knap">
+      <rect width="336" height="73"/>
+    </clipPath>
+  </defs>
+  <g id="afleverings_knap" class="cls-1">
+    <g id="Dashboard" transform="translate(23.971 10.271)">
+      <rect id="BG" class="cls-2" width="304.52" height="43.458"/>
+      <text id="Afleveringer_" data-name="Afleveringer
+" class="cls-3" transform="translate(37.029 28.729)"><tspan x="0" y="0">Afleveringer</tspan><tspan class="cls-4"><tspan x="0" y="19"></tspan></tspan></text>
+      <g id="icon_dashboard" transform="translate(-60.69 -77.241)">
+        <path id="Union_8" data-name="Union 8" class="cls-5" d="M-486-8c-.6,0-1-.581-1-1.454v-13.09c0-.873.4-1.454,1-1.454h2c.6,0,1,.581,1,1.454v13.09c0,.873-.4,1.454-1,1.454Zm-6,0c-.6,0-1-.581-1-1.454v-13.09c0-.873.4-1.454,1-1.454h2c.6,0,1,.581,1,1.454v13.09c0,.873-.4,1.454-1,1.454Zm-6,0a.944.944,0,0,1-1-1V-23a.945.945,0,0,1,1-1h2a.945.945,0,0,1,1,1V-9a.944.944,0,0,1-1,1Z" transform="translate(66 590) rotate(90)"/>
+      </g>
+    </g>
+  </g>
+</svg>

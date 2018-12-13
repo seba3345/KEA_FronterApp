@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 335 64">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-chat_knap);
+      }
+
+      .cls-2 {
+        fill: #43425d;
+      }
+
+      .cls-3 {
+        fill: #a5a4bf;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-size: 16px;
+        font-family: Helvetica;
+      }
+    </style>
+    <clipPath id="clip-chat_knap">
+      <rect width="335" height="64"/>
+    </clipPath>
+  </defs>
+  <g id="chat_knap" class="cls-1">
+    <rect id="BG" class="cls-2" width="304.52" height="43.458" transform="translate(10.971 13.159)"/>
+    <g id="icon_chat-notification" transform="translate(-50 -106)">
+      <path id="Chat_Icon" data-name="Chat Icon" class="cls-3" d="M-1234.693.89A7.944,7.944,0,0,1-1236,1,7.286,7.286,0,0,1-1239.8-.021c.1,0,.2.021.305.021,4.16,0,7.624-2.652,8.353-6.139A3.788,3.788,0,0,1-1230-3.5a3.739,3.739,0,0,1-1.012,2.5h.012V3ZM-1245-4.578a4.872,4.872,0,0,1-1-2.921c0-3.038,2.91-5.5,6.5-5.5s6.5,2.462,6.5,5.5-2.91,5.5-6.5,5.5a7.454,7.454,0,0,1-2.8-.542L-1245-1Z" transform="translate(1324 145)"/>
+    </g>
+    <text id="Chat" class="cls-4" transform="translate(58.153 38.558)"><tspan x="0" y="0">Chat</tspan></text>
+  </g>
+</svg>

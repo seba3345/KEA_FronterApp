@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 63 34">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-luk);
+      }
+
+      .cls-2 {
+        opacity: 0.636;
+      }
+
+      .cls-3 {
+        fill: #515069;
+      }
+    </style>
+    <clipPath id="clip-luk">
+      <rect width="63" height="34"/>
+    </clipPath>
+  </defs>
+  <g id="luk" class="cls-1">
+    <g id="Group_393" data-name="Group 393" class="cls-2" transform="translate(-5883.889 3385.084) rotate(45)">
+      <rect id="Rectangle_1561" data-name="Rectangle 1561" class="cls-3" width="5.256" height="24.529" transform="translate(1801.136 -6579)"/>
+      <rect id="Rectangle_1562" data-name="Rectangle 1562" class="cls-3" width="5.256" height="24.529" transform="translate(1816.029 -6569.364) rotate(90)"/>
+    </g>
+  </g>
+</svg>

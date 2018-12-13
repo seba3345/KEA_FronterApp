@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 209 82">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-login_knap);
+      }
+
+      .cls-2 {
+        fill: #ad4554;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 18px;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+    </style>
+    <clipPath id="clip-login_knap">
+      <rect width="209" height="82"/>
+    </clipPath>
+  </defs>
+  <g id="login_knap" class="cls-1">
+    <rect id="Rectangle_166" data-name="Rectangle 166" class="cls-2" width="185" height="50" rx="4" transform="translate(10 17)"/>
+    <text id="Login" class="cls-3" transform="translate(102 48)"><tspan x="-24.491" y="0">Login</tspan></text>
+  </g>
+</svg>

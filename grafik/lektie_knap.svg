@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 262 69">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-lektie_knap);
+      }
+
+      .cls-2 {
+        fill: #d18589;
+        stroke: #eaf0f4;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 9px;
+        font-family: HelveticaNeue-Bold, Helvetica Neue;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-lektie_knap">
+      <rect width="262" height="69"/>
+    </clipPath>
+  </defs>
+  <g id="lektie_knap" class="cls-1">
+    <g id="Rectangle_1519" data-name="Rectangle 1519" class="cls-2" transform="translate(5.785 6.363)">
+      <rect class="cls-4" width="251.593" height="57.587"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="250.593" height="56.587"/>
+    </g>
+    <text id="LEKTIE_12.30-_18.00_" data-name="LEKTIE
+12.30- 18.00
+              " class="cls-3" transform="translate(20 20)"><tspan x="0" y="9">LEKTIE</tspan><tspan x="0" y="20">12.30- 18.00</tspan><tspan x="0" y="31" xml:space="preserve">              </tspan></text>
+  </g>
+</svg>

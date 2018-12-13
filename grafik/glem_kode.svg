@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 68 36">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-glem_kode);
+      }
+
+      .cls-2 {
+        fill: #cecfd0;
+        font-size: 12px;
+        font-family: ArialMT, Arial;
+      }
+    </style>
+    <clipPath id="clip-glem_kode">
+      <rect width="68" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="glem_kode" class="cls-1">
+    <text id="Glemt_kode" data-name="Glemt kode" class="cls-2" transform="translate(65 22)"><tspan x="-61.359" y="0">Glemt kode</tspan></text>
+  </g>
+</svg>

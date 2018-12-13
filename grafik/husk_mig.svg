@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 83 28">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-husk_mig);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #808495;
+      }
+
+      .cls-3 {
+        fill: #cecfd0;
+        font-size: 12px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-husk_mig">
+      <rect width="83" height="28"/>
+    </clipPath>
+  </defs>
+  <g id="husk_mig" class="cls-1">
+    <g id="RememberMe" transform="translate(-993 -517.672)">
+      <g id="Rectangle_165" data-name="Rectangle 165" class="cls-2" transform="translate(1001 526)">
+        <rect class="cls-4" width="12.672" height="12.672" rx="4"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="11.672" height="11.672" rx="3.5"/>
+      </g>
+      <text id="Husk_mig-2" data-name="Husk mig" class="cls-3" transform="translate(1018.525 535.63)"><tspan x="0" y="0">Husk mig</tspan></text>
+    </g>
+  </g>
+</svg>

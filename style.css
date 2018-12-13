@@ -1,0 +1,709 @@
+body {
+    margin: 0;
+    display: flex;
+    background-image: url(grafik/login_screen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    overflow: hidden;
+    overflow-y: inherit;
+    overflow-x: inherit;
+}
+
+.screen {
+    margin: 0;
+    padding: 0.1vw;
+    background-image: url(grafik/forside_screen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 317%;
+    overflow: hidden;
+}
+
+.glemt {
+    margin: 0;
+    padding: 0.1vw;
+    background-image: url(grafik/glemt_kode_screen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 317%;
+    overflow: hidden;
+}
+
+
+/*---------------------------------------------------
+1: Variables & Common styling
+2: Layout / Grid
+3: Form styling
+4: Table styles
+5: Page specific styles
+---------------------------------------------------*/
+
+/*---------------------------------------------------
+1: Variables & Common styling
+---------------------------------------------------*/
+/*Variables*/
+/*
+:root {
+    --color-dark: #43425D;
+    --color-light: #FEFEFE;
+    --color-accent: #f90;
+}
+*/
+
+.hide {
+    display: none;
+}
+
+/*Common styling classes*/
+
+
+/*---------------------------------------------------
+2: Layout / Grid
+---------------------------------------------------*/
+/*Grid container*/
+/*
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    position: absolute;
+    grid-gap: 15px;
+    justify-items: center;
+    max-width: 76vw;
+    max-height: 56vw;
+    margin: 0 auto;
+    background-color: var(--color-dark);
+    opacity: 0.78;
+    left: 12.1vw;
+    top: 60vw;
+}
+
+.afleveringerpage .container {
+    justify-items: left;
+}
+*/
+
+/*Grid column items*/
+/*
+.frontervskeatitle {
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+*/
+
+/*loginpage*/
+
+/*
+.loginpage {
+    position: absolute;
+}
+
+.loginform {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.huskmig {
+    position: absolute;
+    top: 50vw;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.glemtpassword {
+    position: absolute;
+    bottom: 2vw;
+    left: 12vw;
+    grid-row-start: 4;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+*/
+
+/*loginpage grid*/
+/*
+.formgroup {
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    grid-gap: 15px;
+}
+
+.login_knap {
+    display: block;
+    width: 40vw;
+    grid-template-columns: 1fr 260px;
+    grid-gap: 15px;
+}
+
+.formgroup label {
+    grid-column-start: 1;
+}
+
+.formgroup input {
+    grid-column-start: 2;
+}
+
+.formgroup,
+.glemtpassword {
+    margin-bottom: 1.5em;
+}
+*/
+
+/*afleveringer page*/
+/*
+.afleveringer {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+*/
+
+/*---------------------------------------------------
+3: Form styling
+---------------------------------------------------*/
+/*Inputs*/
+/*
+label,
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=submit] {
+    padding: 1em;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus {
+    border: 3px solid var(--color-dark);
+    outline: -webkit-focus-ring-color auto 0;
+}
+
+input[type=submit] {
+    background-color: #AD4554;
+    color: var(--color-light);
+    border-color: var(--color-accent);
+    transition: background-color 1s, color 1s;
+}
+
+input[type=submit]:hover {
+    background-color: var(--color-accent);
+    color: var(--color-light);
+    border-color: var(--color-dark);
+}
+*/
+
+/*---------------------------------------------------
+4: Table styles
+---------------------------------------------------*/
+/*
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+th {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+td {
+    border: 1px solid var(--color-accent);
+}
+*/
+
+/*---------------------------------------------------
+5: Page specific styles
+---------------------------------------------------*/
+/*Login page*/
+/*
+.loginpage {
+    background-color: var(--color-dark);
+}
+*/
+
+/*
+#login{
+     background-image: url(grafik/kea_logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+*/
+/*}*/
+/*
+#loginbtn {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30vw;
+    height: 20vw;
+    position: absolute;
+    left: 0vw;
+    top: 80vw;
+}
+
+#login {}
+*/
+#glemkode {
+    margin-top: 84vw;
+    margin-left: 22vw;
+    width: 0vw;
+    height: 0vw;
+}
+
+.container {
+    margin-top: 60vw;
+    margin-left: 11vw;
+    width: 68vw;
+    height: 42vw;
+    background-color: #43425D;
+    opacity: 1
+}
+
+input[type=email] {
+    color: white;
+    background-color: #43425D;
+    width: 55vw;
+    height: 8vw;
+    padding: 12px 35px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #43425D;
+    box-sizing: border-box;
+    border-bottom: 4px solid white;
+
+}
+
+form {}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    color: white;
+    background-color: #43425D;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #43425D;
+    box-sizing: border-box;
+    border-bottom: 4px solid white;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #ff6565;
+    color: white;
+    padding: 14px 20px;
+    margin: 20vw 0 0 30vw;
+    border: none;
+    cursor: pointer;
+    width: 40vw;
+    border-radius: 1vw;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    padding: 1px;
+    float: right;
+    color: white;
+}
+
+.luk {
+    background-image: url(grafik/luk.svg);
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 2vw;
+    right: 0vw;
+}
+
+.tilbage {
+    background-image: url(grafik/pil_tilbage_knap.svg);
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 8vw;
+    left: 17vw;
+}
+
+.luk_chat {
+    background-image: url(grafik/luk.svg);
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 12vw;
+    right: 3vw;
+}
+
+label {
+    color: white;
+    font-family: arial;
+}
+
+a {
+    color: white;
+    font-family: arial;
+}
+
+span {
+    text-decoration: underline;
+    font-family: arial;
+}
+
+/*<-------------------------------------------FORSIDE----------------------------->*/
+
+#skema {
+    background-image: url(grafik/skema_knapp.svg);
+    background-repeat: no-repeat;
+    margin-top: 64vw;
+    margin-left: 5.6vw;
+    width: 90%;
+    height: 20vw;
+
+}
+
+#chat {
+    background-image: url(grafik/chat_knap.svg);
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 17.44vw;
+    margin-top: 7vw;
+    margin-left: 6vw;
+    margin-bottom: -3vw
+}
+
+#afleveringer {
+    background-image: url(grafik/afleverings_knap.svg);
+    background-repeat: no-repeat;
+    width: 90.7%;
+    height: 20vw;
+    margin-left: 2.6vw
+}
+
+#burgermenu {
+    background-image: url(grafik/burger_menu.svg);
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 3vw;
+}
+
+#burgermenu_screen {
+    background-image: url(grafik/burger_menu_screen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0vw;
+}
+
+#hvid_luk {
+    background-image: url(grafik/hvid_luk.svg);
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    top: 1vw;
+    right: -2vw;
+}
+
+#hvid_burger {
+    background-image: url(grafik/hvid_burger_menu.svg);
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 3vw;
+    left: 1vw;
+}
+
+#hvid_burger_luk {
+    background-image: url(grafik/hvid_luk.svg);
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    top: 1vw;
+    right: -2vw;
+}
+
+
+/*<-------------------------------------------CHAT----------------------------->*/
+
+#chatbaggrund {
+    margin: 0;
+    padding: 0.1vw;
+    background-image: url(grafik/samtale_screen.svg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    width: 100vw;
+    height: 317%;
+}
+
+#samtaleknap {
+    background-image: url(grafik/samtale_knap.svg);
+    background-repeat: no-repeat;
+    width: 106.15%;
+    position: absolute;
+    height: 90.9vw;
+    margin-left: 0.3vw;
+    margin-top: 79.7vw;
+
+}
+
+#chatluk {
+    background-image: url(grafik/luk.svg);
+    background-repeat: no-repeat;
+    width: 15%;
+    position: absolute;
+    height: 20vw;
+    margin-left: 84vw;
+
+
+}
+
+
+
+#chat2baggrund {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0.1vw;
+    background-image: url(grafik/chat_screen.svg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#chat2luk {
+    background-image: url(grafik/luk.svg);
+    background-repeat: no-repeat;
+    width: 20%;
+    position: absolute;
+    height: 5vw;
+    margin-left: 84vw;
+    margin-top: 13vw;
+
+
+}
+
+
+
+
+
+/*<-------------------------------------------AFLEVERING--------------------------->*/
+#aflerverings_screen {
+    margin: 0;
+    padding: 0.1vw;
+    background-image: url(grafik/afleverings_screen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 317%;
+    overflow: hidden;
+}
+
+#aflevering {
+    background-image: url(grafik/1_sem_knap.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 49vw;
+    left: -3.2vw;
+    width: 105vw;
+    height: 25vw;
+
+}
+
+#tema {
+    margin: 0;
+    padding: 0.1vw;
+    background-image: url(grafik/tema_screen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 317%;
+    overflow: hidden;
+}
+
+#tema_knap {
+    background-image: url(grafik/tema_knap.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 93vw;
+    left: 6.3vw;
+    width: 88.5vw;
+    height: 25vw;
+}
+
+#opgave {
+    margin: 0;
+    padding: 0.1vw;
+    background-image: url(grafik/opgave_screen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 317%;
+    overflow: hidden;
+}
+
+#opgave_knap {
+    background-image: url(grafik/opgave_knap.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 60vw;
+    left: 6.3vw;
+    width: 90.5vw;
+    height: 25vw;
+}
+
+#aflerering_info {
+    margin: 0;
+    padding: 0.1vw;
+    background-image: url(grafik/iPhone%206-7-8%20%E2%80%93%2024.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 317%;
+    overflow: hidden;
+}
+
+#opret_link {
+    background-image: url(grafik/link_knap.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 105vw;
+    left: 6.3vw;
+    width: 90.5vw;
+    height: 25vw;
+}
+
+#link {
+    margin: 0;
+    padding: 0.1vw;
+    background-image: url(grafik/link_screen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 317%;
+    overflow: hidden;
+}
+
+#tilbage {
+    background-image: url(grafik/pil_tilbage_knap.svg);
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 20vw;
+    position: absolute;
+    top: 2vw;
+}
+
+#hvid_luk {
+    background-image: url(grafik/hvid_luk.svg);
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    top: 4vw;
+    right: -2vw;
+}
+
+
+/*-----------------------------------SKEMA----------------------------------*/
+
+
+.show {
+    visibility: visible;
+}
+
+.fade_out {
+    animation-name: fadeout_kf;
+    animation-duration: .5 s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+
+#skemabaggrund {
+    position: absolute;
+    margin: 0;
+    padding: 0.1vw;
+    background-image: url(grafik/skema_screen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+#lektieknap {
+    background-image: url(grafik/lektie_knap.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 18.44vw;
+    margin-left: 22vw;
+    margin-top: 127vw;
+
+}
+
+
+#luk {
+    background-image: url(grafik/luk.svg);
+    background-repeat: no-repeat;
+    width: 20%;
+    position: absolute;
+    height: 20vw;
+    margin-left: 80vw;
+
+
+}
+
+#luk2 {
+    background-image: url(grafik/luk.svg);
+    background-repeat: no-repeat;
+    width: 20%;
+    position: absolute;
+    height: 20vw;
+    margin-left: 80vw;
+}
+
+#skema2baggrund {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0.1vw;
+    background-image: url(grafik/lektie_screen.svg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}

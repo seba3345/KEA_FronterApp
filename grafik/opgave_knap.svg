@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 336 76">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-opgave_knap);
+      }
+
+      .cls-2 {
+        fill: #43425d;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 14px;
+        font-family: Helvetica;
+      }
+    </style>
+    <clipPath id="clip-opgave_knap">
+      <rect width="336" height="76"/>
+    </clipPath>
+  </defs>
+  <g id="opgave_knap" class="cls-1">
+    <rect id="BG" class="cls-2" width="304.52" height="43.458" transform="translate(8.971 14.271)"/>
+    <text id="_01.01.02_Projekt" data-name="01.01.02 Projekt" class="cls-3" transform="translate(109 40)"><tspan x="0" y="0">01.01.02 Projekt</tspan></text>
+  </g>
+</svg>

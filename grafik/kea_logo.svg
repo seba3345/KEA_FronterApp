@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 388 178">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-kea_logo);
+      }
+
+      .cls-2 {
+        fill: url(#pattern);
+      }
+
+      .cls-3 {
+        fill: #ad4554;
+        font-size: 16px;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 295 75">
+      <image width="295" height="75" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+    <clipPath id="clip-kea_logo">
+      <rect width="388" height="178"/>
+    </clipPath>
+  </defs>
+  <g id="kea_logo" class="cls-1">
+    <rect class="cls-4" width="388" height="178"/>
+    <rect id="_rendition" class="cls-2" width="282" height="72" transform="translate(62 46)"/>
+    <text id="KØBENHAVNS_ERHVERVSAKADEMI" data-name="KØBENHAVNS ERHVERVSAKADEMI" class="cls-3" transform="translate(344 139)"><tspan x="-279.445" y="0">KØBENHAVNS ERHVERVSAKADEMI</tspan></text>
+  </g>
+</svg>

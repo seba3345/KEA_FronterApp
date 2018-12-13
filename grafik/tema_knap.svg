@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 329 77">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-tema_knap);
+      }
+
+      .cls-2 {
+        fill: #43425d;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 16px;
+        font-family: Helvetica;
+      }
+    </style>
+    <clipPath id="clip-tema_knap">
+      <rect width="329" height="77"/>
+    </clipPath>
+  </defs>
+  <g id="tema_knap" class="cls-1">
+    <g id="Chat_Room" data-name="Chat Room" transform="translate(9.971 15.159)">
+      <rect id="BG" class="cls-2" width="304.52" height="43.458"/>
+      <text id="UX" class="cls-3" transform="translate(141.181 25.399)"><tspan x="0" y="0">UX</tspan></text>
+    </g>
+  </g>
+</svg>

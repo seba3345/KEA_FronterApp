@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 59 46">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-hvid_burger_menu);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-hvid_burger_menu">
+      <rect width="59" height="46"/>
+    </clipPath>
+  </defs>
+  <g id="hvid_burger_menu" class="cls-1">
+    <path id="Union_54" data-name="Union 54" class="cls-2" d="M-481.721,2.983c-.8,0-1.329-.98-1.329-2.453V-21.546c0-1.472.531-2.453,1.329-2.453h2.658c.8,0,1.329.98,1.329,2.453V.53c0,1.472-.531,2.453-1.329,2.453Zm-7.974,0c-.8,0-1.33-.98-1.33-2.453V-21.546c0-1.472.532-2.453,1.33-2.453h2.658c.8,0,1.329.98,1.329,2.453V.53c0,1.472-.532,2.453-1.329,2.453Zm-7.976,0c-.8,0-1.329-.674-1.329-1.686V-22.314c0-1.011.531-1.686,1.329-1.686h2.658c.8,0,1.329.675,1.329,1.686V1.3c0,1.012-.531,1.686-1.329,1.686Z" transform="translate(16.265 510.031) rotate(90)"/>
+  </g>
+</svg>
